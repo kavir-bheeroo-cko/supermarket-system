@@ -2,11 +2,10 @@ package dataAccess.Models;
 
 public class Employee {
 	
-	int employeeId;
-	String name;
-	String surname;
-	String gender;
-	String address;
-	int phone;
-
+	public int employeeId;
+	public String name;
+	public String surname;
+	public String gender;
+	public String address;
+	public int phone;
 }

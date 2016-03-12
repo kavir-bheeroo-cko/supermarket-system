@@ -2,10 +2,9 @@ package dataAccess.Models;
 
 public class EmployeeLogin {
 	
-	int loginId;
-	int employeeId;
-	int accessRightId;
-	String username;
-	String password;
-
+	public int loginId;
+	public int employeeId;
+	public int accessRightId;
+	public String username;
+	public String password;
 }
