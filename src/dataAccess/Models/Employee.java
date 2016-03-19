@@ -8,4 +8,9 @@ public class Employee {
 	public String gender;
 	public String address;
 	public int phone;
+	
+	public String toString()
+	{
+		return employeeId+" "+name+" "+surname+" "+gender+" "+address+" "+phone;
+	}
 }

@@ -13,9 +13,9 @@ public class BaseRepository {
 	public void connect() {
 		try
 	    {
-	        Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
-	        String connectionUrl = "jdbc:sqlserver://servername;databaseName=employee;user=username;password=''/*since it is windows authentication*/;";
-	        dbConnection = DriverManager.getConnection(connectionUrl);
+			Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
+			String connectionUrl = "jdbc:sqlserver://localhost\\SAHIL\\SQLEXPRESS:1433;databasename=Supermarket" ;
+	        dbConnection = DriverManager.getConnection(connectionUrl,"Sahil","sahil123");
 	    }
 	    catch(ClassNotFoundException e)
 	    {
