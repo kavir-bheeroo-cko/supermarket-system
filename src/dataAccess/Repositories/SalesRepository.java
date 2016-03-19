@@ -29,6 +29,5 @@ public class SalesRepository extends BaseRepository {
 		Statement statement = dbConnection.createStatement();
 		
 		statement.execute(query);
-		
 	}
 }

@@ -8,5 +8,4 @@ public class SalesDetail {
 	int quantity;
 	float unitPrice;
 	float totalPrice; 
-
 }

@@ -4,7 +4,6 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.ArrayList;
-
 import dataAccess.Models.*;
 
 public class ProductRepository extends BaseRepository{
@@ -52,7 +51,5 @@ public class ProductRepository extends BaseRepository{
 		}
 		
 		return products;
-		
 	}
-	
 }

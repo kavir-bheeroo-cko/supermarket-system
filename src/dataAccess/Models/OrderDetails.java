@@ -7,5 +7,4 @@ public class OrderDetails {
 	int orderId;
 	int productId; 
 	Date date; 
-
 }

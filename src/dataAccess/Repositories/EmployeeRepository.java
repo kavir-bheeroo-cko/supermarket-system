@@ -51,6 +51,7 @@ public class EmployeeRepository extends BaseRepository {
 		while(result.next())
 		{
 			Employee e=new Employee();
+			
 			e.employeeId=result.getInt("EmployeeId");
 			e.name=result.getString("Name");
 			e.surname=result.getString("Surname");
