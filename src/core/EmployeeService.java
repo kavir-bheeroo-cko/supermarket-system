@@ -13,7 +13,7 @@ public class EmployeeService {
 		employeeRepository = new EmployeeRepository();
 	}
 	
-	EmployeeLogin verifyLogin(String username, String password) throws Exception {
+	public EmployeeLogin verifyLogin(String username, String password) throws Exception {
 		
 		try {
 			return employeeRepository.verifyLogin(username, password);
